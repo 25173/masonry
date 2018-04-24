@@ -1,0 +1,72 @@
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    grid-auto-rows: 20px;
+}
+
+/* Non-grid specific CSS */
+body {
+    margin: 10px;
+    color: #374046;
+    background-color: #374046;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.15em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1{
+    color: white;
+}
+
+.item {
+    background-color: #ffffff;
+}
+
+.photothumb{
+    width: 100%;
+}
+/* ruimte voor de tittel*/
+.title {
+    padding: 20px;
+}
+
+/*lettertype*/
+.title h3{
+    font-size: 1.2em;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/*achtergrond kleur voor de tittel */
+.project .title{
+    background-color: #607D8B;
+}
+
+/*achtergrond kleur voor de blog  tittel*/
+.blog .title{
+    background-color: #ff9800;
+}
+
+/*achtergrond kleur voor de foto tittel  */
+.photo .title {
+    background-color: #f44336;
+}
+
+/*ruimte voor de foto van de projecten*/
+.desc{
+    padding: 10px 10px 5px 10px;
+}
+
+/*foto van de projecten*/
+.desc img{
+    width: 50%;
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+/*de ruimte onder de tekst*/
+.desc p {
+    margin-bottom: 10px;
+}
